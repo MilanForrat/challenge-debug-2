@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="jap">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dromadaire - Challenge 2</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="../index.html">Accueil</a>
+            <a class="nav-link" href="../lapin.html">Le Lapin</a>
+            <a class="nav-link" href="./poisson-rouge.html">Le Poisson Rouge</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container">
+    <div class="card">
+      <div class="card-header">
+        Animaux de compagnie
+      </div>
+      <div class="card-body d-flex justify-content-center flex-column">
+        <img src="../images/red-fish.jpg" alt="">
+        <h5 class="card-title">Le poisson rouge</h5>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur expedita, blanditiis adipisci quaerat porro beatae optio distinctio nisi.</p>
+        <div class="row">
+          <div class="col-4 my-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">En Savoir Plus</button>
+          </div>
+          <div class="col-4 my-3">
+            <a href="./lapin.html" class="btn btn-lg btn-success">Acheter ce poisson</a>
+          </div>
+          <div class="col-4 my-3">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              Découvrir d'autres animaux
+            </a>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Autres Animaux </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Voici les différents produits que nous vous recommandons avec l'achat d'un Lapinou :
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="../images/lapin-gris.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lapin-gris</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-danger">En Savoir Plus</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="../images/lapin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">En Savoir Plus</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-warning">En Savoir Plus</a>
+              </div>
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Vous pouvez aussi consulter d'autres animaux :
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Lapin-gris</a></li>
+                <li><a class="dropdown-item" href="#">Lapin-noir</a></li>
+                <li><a class="dropdown-item" href="#">Lapin-géant</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" class="scroll-description" data-bs-offset="0" tabindex="0">
+            <h4 id="desc">Description :</h4>
+            <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus rerum obcaecati, labore odit possimus harum architecto enim perferendis quod et ex libero explicabo delectus, doloribus id tenetur vero soluta neque esse pariatur? Eligendi earum id, sapiente repellat sequi voluptates repudiandae, dolores soluta praesentium, ducimus laudantium aut neque quod distinctio. amet consectetur adipisicing elit. Quisquam nisi, quos nesciunt voluptatum mollitia veritatis. Sunt doloremque velit sint iusto recusandae unde aut praesentium ex temporibus ullam dolor nesciunt nisi expedita magni atque a voluptas odit, voluptatum sequi doloribus tempora maxime dignissimos molestiae? Asperiores, ab voluptatem cupiditate aut vitae veritatis perferendis quasi officiis laborum consequuntur doloribus maxime? Blanditiis laudantium assumenda libero dolor maxime quaerat commodi at ullam quasi iure eius quis deleniti culpa soluta nobis, ipsa explicabo neque repudiandae officiis.</p>
+            <h4 id="details">Détails :</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam esse fuga aliquam sequi commodi? Est earum voluptas fuga et dicta accusantium, labore sit, eius vel quidem neque nulla impedit eveniet.</p>
+            <h4 id="env">Environnement :</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur deleniti natus molestiae, libero consequuntur ab eligendi molestias. Officiis laborum consequatur aliquid itaque rem, recusandae eaque.</p>
+            <h4 id="food">Nourriture :</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, asperiores esse. Inventore fuga officia laudantium.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 progress-div">
+          <h4>Durée de vie :</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h4>Résistance aux maladies :</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h4>Territorial :</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="card">
+          <div class="card-header">
+              Les autres poissons rouges
+          </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../images/cichlid.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>Lorem, ipsum dolor. for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel">
+                  <img src="../images/gold.jpg" class="d-block w-100" alt="N'oublies pas de bien remplir les Alt">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>Some Lorem, ipsum dolor. slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/goldfish.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>Some representative Lorem, ipsum dolor.e third slide.</p>
+                  </div>
+              </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+              </button>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <h4>L'univers des Poissons :</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae quasi hic eius aliquam obcaecati, quis veritatis animi reiciendis quidem ab veniam itaque! Quis nisi expedita maxime recusandae! Saepe voluptatum aliquid dolorem, similique reprehenderit sed quia officia! Reiciendis autem eligendi cum mollitia eveniet minus alias, eaque repellendus qui placeat neque delectus, consectetur praesentium itaque aliquam perspiciatis hic quaerat magnam perferendis labore voluptatem odit tenetur. Exercitationem atque nam quo at mollitia voluptate, eaque fugiat quibusdam esse illum beatae laborum nisi optio?</p>
+          </div>
+          <div class="col-md-4">
+            <img src="../images/fish.png" alt="oublies pas les alt, j'ai dit !">
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <a class="nav-link" href="#">Accueil</a>
+    <a class="nav-link" href="...">Le Lapin</a>
+    <a class="nav-lynk" href="#">Le Poisson Rouge</a>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
